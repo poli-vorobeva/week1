@@ -2,7 +2,7 @@
   "https_only": true,
   "headers": {
     "/*": {
-      "X-Author": "anna_savasteeva",
+      "X-Author": "poli8512",
       "Access-Control-Allow-Origin": "*"
     },
     "/login/": {
