@@ -19,7 +19,6 @@
                     return response.text();
                 })
                 .then((data) => {
-                    console.log(data);
                     document.querySelector('input').value = data;
                 })
                 .catch(reject => {
