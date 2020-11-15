@@ -1,8 +1,6 @@
 
 function task(x) {
   const checkPromise = (count) =>
-    new Promise((res, rej) => (count < 18 ? res("yes") : rej("no")));
-    .then((x) => x)
-    .catch((x) => x);
+    new Promise((res, rej) => (count < 18 ? res("yes") : rej("no")))
   return checkPromise(x);
 }
